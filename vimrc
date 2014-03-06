@@ -30,7 +30,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'tpope/vim-repeat'
 
 " UI
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'vim-scripts/matchit.zip'
@@ -49,6 +49,7 @@ Bundle 'kchmck/vim-coffee-script'
 "Ruby, Rails
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
+Bundle 'ecomba/vim-ruby-refactoring'
 
 "CSS
 Bundle 'cakebaker/scss-syntax.vim'
