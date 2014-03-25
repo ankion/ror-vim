@@ -40,6 +40,7 @@ Bundle 'terryma/vim-multiple-cursors'
 " tags, ctags
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'tpope/vim-ragtag'
+Bundle 'vim-scripts/autotags'
 
 "Javascript
 Bundle 'pangloss/vim-javascript'
