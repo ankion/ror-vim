@@ -56,6 +56,9 @@ Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'ap/vim-css-color'
 
+"Objective-c"
+Bundle 'msanders/cocoa.vim'
+
 if iCanHazVundle == 0
   echo "Installing Bundles, please ignore key map error messages"
   echo ""
