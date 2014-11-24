@@ -46,6 +46,7 @@ Bundle 'vim-scripts/autotags'
 Bundle 'pangloss/vim-javascript'
 Bundle 'briancollins/vim-jst'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'mxw/vim-jsx.git'
 
 "Ruby, Rails
 Bundle 'vim-ruby/vim-ruby'
