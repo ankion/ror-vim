@@ -36,6 +36,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'bonsaiben/bootstrap-snippets'
+Plugin 'justinj/vim-react-snippets'
 Plugin 'mattn/emmet-vim'
 
 " UI
