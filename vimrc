@@ -52,6 +52,7 @@ Bundle 'mxw/vim-jsx.git'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'ecomba/vim-ruby-refactoring'
+Bundle 'stephpy/vim-yaml'
 
 "CSS
 Bundle 'cakebaker/scss-syntax.vim'
