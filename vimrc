@@ -46,6 +46,9 @@ Plugin 'vim-scripts/matchit.zip'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'terryma/vim-multiple-cursors'
 
+" Indent
+Plugin 'godlygeek/tabular'
+
 " tags, ctags
 "Plugin 'vim-scripts/taglist.vim'
 "Plugin 'vim-scripts/autotags'
@@ -65,6 +68,9 @@ Plugin 'stephpy/vim-yaml'
 "CSS
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'ap/vim-css-color'
+
+" Markdown
+Plugin 'plasticboy/vim-markdown'
 
 "Objective-c"
 "Plugin 'msanders/cocoa.vim'
