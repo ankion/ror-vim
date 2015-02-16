@@ -11,59 +11,67 @@ let iCanHazVundle=0
 endif
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 "Add your bundles here
 
 " Search file
-Bundle 'kien/ctrlp.vim'
-Bundle 'mileszs/ack.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
 
 " Git
-Bundle 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 
 " Autocomplete
-Bundle 'ervandew/supertab'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'tpope/vim-surround'
-Bundle 'vim-scripts/Align'
-Bundle 'Raimondi/delimitMate'
-Bundle 'tpope/vim-repeat'
+"Plugin 'ervandew/supertab'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-surround'
+"Plugin 'vim-scripts/Align'
+"Plugin 'Raimondi/delimitMate'
+"Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-ragtag'
+
+" Snippet
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'bonsaiben/bootstrap-snippets'
+Plugin 'mattn/emmet-vim'
 
 " UI
-Bundle 'bling/vim-airline'
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'vim-scripts/matchit.zip'
-Bundle 'michaeljsmith/vim-indent-object'
-Bundle 'terryma/vim-multiple-cursors'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'vim-scripts/matchit.zip'
+Plugin 'michaeljsmith/vim-indent-object'
+Plugin 'terryma/vim-multiple-cursors'
 
 " tags, ctags
-Bundle 'vim-scripts/taglist.vim'
-Bundle 'tpope/vim-ragtag'
-Bundle 'vim-scripts/autotags'
+"Plugin 'vim-scripts/taglist.vim'
+"Plugin 'vim-scripts/autotags'
 
 "Javascript
-Bundle 'pangloss/vim-javascript'
-Bundle 'briancollins/vim-jst'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'mxw/vim-jsx.git'
+Plugin 'pangloss/vim-javascript'
+Plugin 'briancollins/vim-jst'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'mxw/vim-jsx.git'
 
 "Ruby, Rails
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-rails'
-Bundle 'ecomba/vim-ruby-refactoring'
-Bundle 'stephpy/vim-yaml'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'ecomba/vim-ruby-refactoring'
+Plugin 'stephpy/vim-yaml'
 
 "CSS
-Bundle 'cakebaker/scss-syntax.vim'
-Bundle 'ap/vim-css-color'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'ap/vim-css-color'
 
 "Objective-c"
-Bundle 'msanders/cocoa.vim'
+"Plugin 'msanders/cocoa.vim'
 
 if iCanHazVundle == 0
-  echo "Installing Bundles, please ignore key map error messages"
+  echo "Installing Plugins, please ignore key map error messages"
   echo ""
-  :BundleInstall
+  :PluginInstall
   endif
 " Setting up Vundle - the vim plugin bundler end
